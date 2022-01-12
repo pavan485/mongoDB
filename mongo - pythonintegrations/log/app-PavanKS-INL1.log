@@ -1,0 +1,10 @@
+2021-12-16 01:29:23,285 - request_handler - INFO - Getting authorization token
+2021-12-16 01:29:24,584 - request_handler - INFO - calling API with the token
+2021-12-16 01:29:26,870 - utils - INFO - Parsing data for InfluxDB
+2021-12-16 01:29:26,872 - __main__ - ERROR - unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\PavanKumarS\OneDrive - Catchpoint Systems\Desktop\influx integrations\application.py", line 32, in run
+    parsed_json = utils.Utils.parse_raw(data)
+  File "C:\Users\PavanKumarS\OneDrive - Catchpoint Systems\Desktop\influx integrations\utils.py", line 38, in parse_raw
+    values['step'] = value[value]
+TypeError: unhashable type: 'dict'
