@@ -7,14 +7,22 @@ token_endpoint: 'token'
 version : 'v1'
 rawdata_endpoint : 'performance/raw?tests'
 test_ids: { 
-            #   web : ['123456','123456',''123456'],
-            #   traceroute : [], 
-            #   api : [],
-            #   transaction: [],
-            #   dns : [],
-            #   smtp : ['],
-            #   websocket: [],
-            #   ping : [']
+        web: ['142637'], 
+        transaction: [],
+        api: [],
+        ping: [],
+        traceroute: [],
+        dns: [],
+        websocket: [],
+        smtp: [],
+        transport: [],
+        ftp: [],
+        custom: [],
+        ntp: [],
+        imap: [],
+        ssl: [],
+        html: [],
+        streaming: []
               
           }
 # get_logger  
