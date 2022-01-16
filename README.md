@@ -52,6 +52,10 @@ In the config_influx.py file, enter your MongoDB url, database name and collecti
 `*/15 * * * * cd /usr/local/bin/ && python /usr/local/bin/application.py > /usr/local/bin/logs/cronlog.log 2>&1`
 
 
+or 
+
+- In the /python-mongo directory, run appliaction.py after uncommenting the while true: and time.sleep.
+
 ## File Structure
 
     Python-Mongo/
