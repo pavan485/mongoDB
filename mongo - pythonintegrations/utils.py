@@ -1,8 +1,6 @@
 import yaml
 import log
 import pymongo
-import dateutil.parser as dp
-from influxdb_client.client.write_api import SYNCHRONOUS
 creds = yaml.safe_load(open('./config/config_mongo.yaml'))
 conf = yaml.safe_load(open('./config/config_catchpoint.yaml'))
 logger = log.get_logger(__name__,conf['log_file'],conf['log_level'])
@@ -11,7 +9,7 @@ logger = log.get_logger(__name__,conf['log_file'],conf['log_level'])
 class Utils():
     @staticmethod
     def parse_raw(structure):
-        logger.info("Parsing data for InfluxDB")
+        logger.info("Parsing data for mongoDB")
         synthetic_metrics = []
         if 'error' in structure:
             logger.error(structure['error'])
@@ -38,7 +36,7 @@ class Utils():
                 values['hop_number'] = value['hop_number']
         
             
-            values['time_stamp'] = dp.parse(value['dimension']['name']).timestamp()*1000000
+            values['time_stamp'] = dp.parse(value['dimension']['name'])
 
             metric_values = value['synthetic_metrics']
             fields = {}
