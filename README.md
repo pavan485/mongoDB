@@ -62,7 +62,7 @@ or
     ├── request_handler.py          ## Contains APIs related to authentication       
     ├── config
     | ├── config_catchpoint.yaml    ## Configuration file for Catchpoint 
-    | ├── config_influx.yaml        ## Configuration file for mongoDB
+    | ├── config_mongo.yaml        ## Configuration file for mongoDB
     ├── log
     | ├── app.log                   ## Contains informational and error logs. 
     ├── application.py              ## main file
