@@ -54,7 +54,7 @@ In the config_mongo.py file, enter your MongoDB url, database name and collectio
 
 or 
 
-- In the /python-mongo directory, run appliaction.py after uncommenting the while true: and time.sleep.
+- In the /Mongo-Python directory, run appliaction.py after uncommenting the while true: and time.sleep.
 
 ## File Structure
 
