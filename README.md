@@ -13,8 +13,8 @@ This integration makes use of a Python script that runs at 15 minutes intervals 
 
 # Installation and Configuration
 
-Copy the Python-Influx folder to your machine
-Run following commands in the directory /Python-Influx
+Copy the Python-MongoDB folder to your machine
+Run following commands in the directory /Python-MongoDB
    - python -m pip install requests
    - pip install pyyaml
    - pip install logger
@@ -22,8 +22,8 @@ Run following commands in the directory /Python-Influx
    
    
 ### Configuration
-In the config.yaml file under config sub-directory, enter your Catchpoint API consumer key and secret
-In the tests object of the config_catchpoint.yaml file, enter the test IDs you want to pull the data for in a dictionary of array format.
+In the config_catchpoint.yaml file under config sub-directory, enter your [Catchpoint API consumer key and secret](https://portal.catchpoint.com/ui/Content/Administration/ApiDetail.aspx)
+In the test_ids object of the config_catchpoint.yaml file, enter the test IDs you want to pull the data for in a dictionary of array format.
 
 *Example:*
 
