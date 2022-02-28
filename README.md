@@ -8,7 +8,7 @@ This integration makes use of a Python script that runs at 15 minutes intervals 
 ### Prerequisites
 ---
 1. Python v3.x
-2. [MongoDB 5.x] (https://www.mongodb.com/try/download/community)
+2. [MongoDB 5.x](https://www.mongodb.com/try/download/community)
 3. Catchpoint account with a REST API consumer
 
 # Installation and Configuration
