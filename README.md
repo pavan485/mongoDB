@@ -1,5 +1,5 @@
-# Nodejs-Influx
-Catchpoint Integration with InfluxDB
+# Python-MongoDB
+Catchpoint Integration with MongoDB
 ---
 We can use this integration to pull timeseries data from Catchpoint and store it in MongoDB for analysis or as a long-term test data storage solution.
 
@@ -8,7 +8,7 @@ This integration makes use of a Python script that runs at 15 minutes intervals 
 ### Prerequisites
 ---
 1. Python v3.x
-2. MongoDB 5.x
+2. [MongoDB 5.x] (https://www.mongodb.com/try/download/community)
 3. Catchpoint account with a REST API consumer
 
 # Installation and Configuration
