@@ -39,7 +39,7 @@ In the test_ids object of the config_catchpoint.yaml file, enter the test IDs yo
               
           }
 ---       
-In the config_influx.py file, enter your MongoDB url, database name and collection name where the data will be stored. The default MongoDB URL for a local installation is http://localhost:27017
+In the config_mongo.py file, enter your MongoDB url, database name and collection name where the data will be stored. The default MongoDB URL for a local installation is http://localhost:27017
 
 
 ### How to run
