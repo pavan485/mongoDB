@@ -1,4 +1,4 @@
-# Python-MongoDB
+# MongoDB-Python
 Catchpoint Integration with MongoDB
 ---
 We can use this integration to pull timeseries data from Catchpoint and store it in MongoDB for analysis or as a long-term test data storage solution.
@@ -13,8 +13,8 @@ This integration makes use of a Python script that runs at 15 minutes intervals 
 
 # Installation and Configuration
 
-Copy the Python-MongoDB folder to your machine
-Run following commands in the directory /Python-MongoDB
+Copy the MongoDB-Python folder to your machine
+Run following commands in the directory /MongoDB-Python
    - python -m pip install requests
    - pip install pyyaml
    - pip install logger
@@ -54,11 +54,11 @@ In the config_mongo.py file, enter your MongoDB url, database name and collectio
 
 or 
 
-- In the /Mongo-Python directory, run appliaction.py after uncommenting the while true: and time.sleep.
+- In the /MongoDB-Python directory, run appliaction.py after uncommenting the while true: and time.sleep().
 
 ## File Structure
 
-    Python-Mongo/
+    MongoDB-Python/
     ├── request_handler.py          ## Contains APIs related to authentication       
     ├── config
     | ├── config_catchpoint.yaml    ## Configuration file for Catchpoint 
