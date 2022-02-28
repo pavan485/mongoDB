@@ -66,7 +66,7 @@ or
     ├── log
     | ├── app.log                   ## Contains informational and error logs. 
     ├── application.py              ## main file
-    ├── log.py
+    ├── log.py                      ## custom logger function
     ├── request_handler.py          ## Contains API requests for token and raw endpoint.
     ├── utils.py                    ##  utility for partsing data, inserting it into mongoDB and validating configurations.
            
